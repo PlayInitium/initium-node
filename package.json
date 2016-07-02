@@ -1,0 +1,38 @@
+{
+  "name": "initium",
+  "version": "0.0.0",
+  "description": "A Node.JS API for http://www.playinitium.com/",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlayInitium/initium-node.git"
+  },
+  "keywords": [
+    "initium",
+    "game",
+    "play",
+    "mmo",
+    "mmorpg"
+  ],
+  "author": "Josh Hawkins",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/PlayInitium/initium-node/issues"
+  },
+  "homepage": "https://github.com/PlayInitium/initium-node#readme",
+  "dependencies": {
+    "webdriverio": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
